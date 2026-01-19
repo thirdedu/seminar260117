@@ -2,16 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>My Vite Pages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Do Not Click</title>
-    <link rel="stylesheet" href="/indexStyles.css" />
   </head>
-  <body>
-    <div id="app">
-      <button id="danger-button">Do Not Click This Button</button>
-      <a href="basicchatbot.html" class="secondary-button">Go to ChatBot</a>
-    </div>
+  <body
+    style="
+      margin: 0;
+      height: 100vh;
+      background-color: #0b1c2d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: #e6f1ff;
+    "
+  >
+    <div style="text-align: center">
+      <h1>My Web Page</h1>
+      <p style="margin: 20px 0">
+        Welcome to my Vite project
+      </p>
 
-    <script type="module" src="/src/main.js"></script>
+      <a
+        href="/basicChatbot.html"
+        style="
+          display: inline-block;
+          padding: 14px 28px;
+          background-color: #123a63;
+          color: #e6f1ff;
+          text-decoration: none;
+          border-radius: 8px;
+          font-size: 1.1rem;
+        "
+      >
+        Go to Chatbot
+      </a>
+    </div>
   </body>
 </html>
